@@ -1,0 +1,20 @@
+.box-me {
+/*  width: 700px;
+  float: left;
+  background: rgb(250, 250, 250);*/
+}
+
+.box-me span {
+  float: left;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.box-me .user {
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.box-me .user h2 {
+  margin-bottom: 5px;
+}

@@ -1,0 +1,49 @@
+.box {
+  height: 40px;
+  background-color: #f7f7f7;
+  margin-bottom: 20px;
+}
+
+.box > .left {
+  height: 40px;
+  margin-left: 20px;
+  line-height: 40px;
+  width: 200px;
+  float: left;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.box > .right {
+  height: 40px;
+  margin-right: 20px;
+  float: right;
+}
+
+.box ul {
+  list-style-type: none;
+}
+
+.box ul > li {
+  display: inline;
+  line-height: 40px;
+  padding: 10px;
+}
+
+.box ul li a {
+  text-decoration: none;
+  color: #444;
+}
+
+.box .left a:link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.box .curTab {
+  color: white !important;
+  background-color: #555;
+  border: 1px solid #555;
+  border-radius: 10px;
+  padding: 5px;
+}

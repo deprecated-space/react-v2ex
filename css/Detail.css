@@ -1,0 +1,20 @@
+.box-de {
+/*  width: 700px;
+  float: left;*/
+}
+
+.box-de h1 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 150%;
+  margin: 0px 0px 10px 0px;
+  padding: 0px;
+}
+
+.box-de .topic {
+  background: rgb(250, 250, 250);
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}

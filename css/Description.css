@@ -1,0 +1,24 @@
+.box-d {
+  /*height: 200px;*/
+  /*width: 250px;*/
+  background: rgb(250, 250, 250);
+  /*margin-bottom: 40px;*/
+}
+
+.box-d .cell {
+  padding: 10px;
+  font-size: 12px;
+  line-height: 120%;
+  text-align: left;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.box-d .fade {
+  color: #ccc;
+}
+
+.box-d .cell p {
+  padding-top: 10px;
+  font-size:14px;
+  font-weight: bold;
+}
