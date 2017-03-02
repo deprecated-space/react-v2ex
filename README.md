@@ -26,5 +26,10 @@ A lot of things to do!
 
 - JSX 和 .vue 文件的对比，当然 Vue 也支持 JSX，从最佳实践上来说，React 推荐 JSX，而 Vue 推荐 .vue 文件。整体来说偏爱后者，这样可以把 CSS 写在 .vue 文件中，一个 .vue 文件就是一个 component，比较容易维护，当然最佳实践是把 CSS 写在另外的文件。细节部分，个人感觉 JSX 更优，主要体现在 JSX 其实就是 JavaScript，而 Vue 中自带了更多的语法糖，比如 React 中数组遍历可以用 JS 原生的 `map` 函数，而 Vue 中要用 `v-for` 语法糖，这样感觉 JSX 更灵活，更底层；再比如 React 中方法直接写在对象中即可，而 Vue 要套一层 methods
 
-- Vuex 和 Redux 都还没使用，等到进一步完善代码时加入，使之成为一个完整的全家桶 demo
+- 对比 Vue 的单文件，React 也有 .jsx 的文件？
 
+- Vue 版本在 .vue 文件中用了 scoped 的 css，非常爽，有效避免相同类名的冲突，React 应该如何优雅地实现 CSS module？
+
+- Vue 需要在 components 中指出需要的组件，而 React 直接引入即可
+
+- Vuex 和 Redux 都还没使用，等到进一步完善代码时加入，使之成为一个完整的全家桶 demo
